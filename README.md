@@ -1,29 +1,19 @@
-# Joke Generator
+## Webpack Joke Generator
 
-For this refresher, we are going to build a Joke Generator
+## Project Overview:
+Creating a application that brings up a joke setup upon a button click.
+After the joke set up is rendered the user then presses an updated button to get the punchline
+The punchline is then rendered under the setup and the button is updated to get a new joke
 
-DO NOT worry about style until you get the initial functionality together. This is a lightning exercise, so it is meant to be completed in 30 minutes or less.
+[Deployed project](https://vigorous-euclid-b6c20f.netlify.app/)
 
-Make a quick plan and then execute it.
 
-## Acceptance Criteria:
-1. When a user first loads the app, a button appears on the DOM that reads "Get a Joke"
-1. When the user presses the "Get a Joke" button, an API call is made to the joke API and the joke setup appears on the DOM.
-1. When a user presses the "Get a Joke" button, the button text changes to "Get Punchline"
-1. When a user presses the "Get Punchline" button, both the joke setup and delivery are on the DOM along with a button that reads "Get Another Joke"
-1. When the user presses the "Get Another Joke" button, the app starts over from step 3.
+## Description of user:
+Someone who wants to read some random jokes for a laugh.
 
-## Resources:
-- [API Documentation](https://sv443.net/jokeapi/v2/)
-- Get the Postman Collection
-  - In Postman, select "Import" > "Link"
-  - Copy/Paste this link into the input: `https://www.getpostman.com/collections/548ed97710101a76aa64`
-  - Click "Import"
-
-## Stretch
-DO NOT complete any stretch goals until the functionality of the application is completed.
-- Styling the app
-- [View the mock](https://www.figma.com/file/dUTnw5fZfWCB2RCRJpS7Af/JJ-Wireframe-JS?node-id=0%3A1)
-
+## Features:
+* Get Joke Button which gets joke setup
+* Get Punchline Button which sets the punchline
+* Get Another Joke Button that resets the process
 
 
